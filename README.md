@@ -35,6 +35,9 @@ Please see the below customized documentation steps to run data-catalog locally 
         'teradata': 'teradata',
     }
  
+- Add cx_Oracle==8.2.1 to requirement.txt file
+- If cx_Oracle required, install using below command 
+    pip install cx_Oracle
 
 ## Steps By Step setup Sample Data
 
@@ -85,3 +88,4 @@ Please see the below customized documentation steps to run data-catalog locally 
 
  - http://localhost:5000/
  - http://localhost:7474/browser/
+ - http://localhost:5002/apidocs
