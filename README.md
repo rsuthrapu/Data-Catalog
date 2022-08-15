@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <img
     src="https://raw.githubusercontent.com/amundsen-io/amundsen/master/docs/img/logos/amundsen_logo_on_light.svg?sanitize=true"
     alt="Amundsen"
@@ -275,4 +275,4 @@ Thanks goes to these incredible people:
 
 <a href="https://github.com/amundsen-io/amundsen/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=amundsen-io/amundsen" />
-</a>
+</a> -->
