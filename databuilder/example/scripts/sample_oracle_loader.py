@@ -58,12 +58,13 @@ def connection_string():
     port = ''
     service = ''
     return "oracle+cx_oracle://%s:%s@%s:%s/%s" % (user, password, host, port, service)
- 
+
+  # Assign Schema name here 
 def run_oracle_job():
     where_clause_suffix = textwrap.dedent("""
-        where c.owner = 'RSUTHRAP'
+        where c.owner = 'CIGADMIN' 
     """)
-     #CIGADMIN
+
     tmp_folder = '/var/tmp/amundsen/table_metadata'
     node_files_folder = f'{tmp_folder}/nodes/'
     relationship_files_folder = f'{tmp_folder}/relationships/'
